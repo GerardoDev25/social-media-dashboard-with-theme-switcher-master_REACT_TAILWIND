@@ -1,9 +1,10 @@
-import { Header } from './components';
+import { Header, OverViewContainer } from './components';
 
 function App() {
   return (
     <>
       <Header />
+      <OverViewContainer />
     </>
   );
 }
