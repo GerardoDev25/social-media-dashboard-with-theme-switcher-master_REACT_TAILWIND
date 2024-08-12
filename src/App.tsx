@@ -1,7 +1,9 @@
+import { Header } from './components';
+
 function App() {
   return (
     <>
-      <h1 className='text-3xl font-bold underline'>tailwind</h1>
+      <Header />
     </>
   );
 }
