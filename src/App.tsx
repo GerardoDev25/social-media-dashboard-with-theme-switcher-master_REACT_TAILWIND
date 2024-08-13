@@ -1,10 +1,15 @@
-import { Header, OverViewContainer } from './components';
+import {
+  Header,
+  OverViewContainer,
+  OverViewTodayContainer,
+} from './components';
 
 function App() {
   return (
     <>
       <Header />
       <OverViewContainer />
+      <OverViewTodayContainer />
     </>
   );
 }
